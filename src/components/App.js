@@ -1,29 +1,19 @@
 import React from 'react';
 import './App.css';
 
-const renderColumn = (table, rowIndex, colIndex, onPlayerMove) => {
-  return (<td 
-    key={colIndex}
-    onClick={e => onPlayerMove(rowIndex, colIndex)}>
-    {table[rowIndex][colIndex] || ""}
-  </td>);
-}
+const renderColumn = (col = "", rowIndex, colIndex, onPlayerMove) => {
+  return (<td key={colIndex} onClick={e => onPlayerMove(rowIndex, colIndex)}>{col}</td>);
+};
 
-const renderRow = (table, rowIndex, onPlayerMove) => {
-  let cols = [];
-  for (let colIndex=0; colIndex<table[rowIndex].length; colIndex++) {
-    cols.push(renderColumn(table, rowIndex, colIndex, onPlayerMove));
-  }
+const renderRow = (row, rowIndex, onPlayerMove) => {
+  let cols = row.map((col, colIndex) => renderColumn(col, rowIndex, colIndex, onPlayerMove));
 
   return(<tr key={rowIndex}>{cols}</tr>);
-}
+};
 
-const App = ({state, onPlayerMove}) => {
+const App = ({state, onPlayerMove, onReset}) => {
 
-    var rows = [];
-    for (var i=0; i<state.table.length; i++) {
-      rows.push(renderRow(state.table, i, onPlayerMove));
-    }
+    let rows = state.table.map((row, i) => renderRow(row, i, onPlayerMove));
 
     let message = state.playerWon >= 0 ? "Player " + state.players[state.playerWon] + " won" : 
       "Player " + state.players[state.playerTurn] + "'s turn";
@@ -36,8 +26,9 @@ const App = ({state, onPlayerMove}) => {
             {rows}
           </tbody>
         </table>
+        <button onClick={e => onReset()}>Reset</button>
       </div>
     );
-}
+};
 
 export default App;
