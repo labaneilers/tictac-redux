@@ -1,8 +1,9 @@
 const _initialState = {
-	table: makeArray(3, 3),
+	table: makeArray(5, 5),
 	players: ["X", "O"],
 	playerTurn: 0,
-	playerWon: -1
+	playerWon: -1,
+	numberToWin: 3
 };
 
 function makeArray(rows, cols) {
@@ -43,7 +44,7 @@ function playerMove(state, action) {
 		}
 	}
 
-	let winner = getWinner(newState.table);
+	let winner = getWinner(newState.table, state.numberToWin);
 	if (winner) {
 		newState.playerWon = newState.players.indexOf(winner);
 	}
@@ -113,37 +114,46 @@ function* walkDiagonalLeft(table) {
     }
 }
 
-function getWinner(table) {
-	return getWinnerDirection(walkVertical(table)) ||
-		getWinnerDirection(walkHorizontal(table)) ||
-		getWinnerDirection(walkDiagonalLeft(table)) ||
-		getWinnerDirection(walkDiagonalRight(table));
-}
+function getWinner(table, numberToWin) {
 
-function getWinnerDirection(valueRuns) {
-	for (let valueRun of valueRuns) {
-		let player = null;
-
-		for (let val of valueRun) {
-			if (!val) {
-				player = null;
-				break;
+	for (let walker of [walkHorizontal, walkVertical, walkDiagonalLeft, walkDiagonalRight]) {
+		for (let valueRun of walker(table)) {
+			var result = getNumInARow(valueRun, numberToWin);
+			if (result) {
+				return result;
 			}
-
-			if (player === null || player === val) {
-				player = val;
-			} else if (player !== val) {
-				player = null;
-				break;
-			}
-		}
-
-		if (player) {
-			return player;
 		}
 	}
 
 	return null;
 }
+
+function getNumInARow(values, numberInARow) {
+	let count = 0;
+	let lastPlayer = null;
+
+	for (let val of values) {
+		if (val) {
+			if (val === lastPlayer) {
+				count++;
+				if (count >= numberInARow) {
+					return lastPlayer;
+				}
+			} else {
+				count = 1;
+			}
+		}
+		lastPlayer = val;
+	}
+
+	return null;
+}
+
+tictactoe._private = {
+	getNumInARow,
+	getWinner
+};
+
+
 
 
