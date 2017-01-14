@@ -3,7 +3,7 @@ const _initialState = {
     players: ["X", "O"],
     playerTurn: 0,
     playerWon: -1,
-    numberToWin: 3
+    numberToWin: 4
 };
 
 function makeArray(rows, cols) {
