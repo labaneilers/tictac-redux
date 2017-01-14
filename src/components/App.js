@@ -2,13 +2,13 @@ import React from 'react';
 import './App.css';
 
 const renderColumn = (col = "", rowIndex, colIndex, onPlayerMove) => {
-  return (<td key={colIndex} onClick={e => onPlayerMove(rowIndex, colIndex)}>{col}</td>);
+    return (<td key={colIndex} onClick={e => onPlayerMove(rowIndex, colIndex)}>{col}</td>);
 };
 
 const renderRow = (row, rowIndex, onPlayerMove) => {
-  let cols = row.map((col, colIndex) => renderColumn(col, rowIndex, colIndex, onPlayerMove));
+    let cols = row.map((col, colIndex) => renderColumn(col, rowIndex, colIndex, onPlayerMove));
 
-  return(<tr key={rowIndex}>{cols}</tr>);
+    return(<tr key={rowIndex}>{cols}</tr>);
 };
 
 const App = ({state, onPlayerMove, onReset}) => {

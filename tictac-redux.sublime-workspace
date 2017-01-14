@@ -1,0 +1,336 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/laban/projects/tictac-redux"
+	],
+	"file_history":
+	[
+		"/Library/WebServer/Documents/hashly/test/hash-pattern.unittests.js",
+		"/Library/WebServer/Documents/hashly/bin/hashly",
+		"/Library/WebServer/Documents/hashly/lib/hash-pattern.js",
+		"/Library/WebServer/Documents/hashly/lib/cli.js",
+		"/Library/WebServer/Documents/hashly/test/cli.unittests.js",
+		"/Library/WebServer/Documents/hashly/lib/hashly.js",
+		"/Library/WebServer/Documents/hashly/README.md",
+		"/Library/WebServer/Documents/hashly/lib/usage.txt",
+		"/Library/WebServer/Documents/hashly/gruntfile.js",
+		"/Library/WebServer/Documents/hashly/package.json",
+		"/Users/laban/projects/tictac-react/hello-world/package.json",
+		"/Users/laban/projects/tictac-react/hello-world/node_modules/react-scripts/scripts/test.js",
+		"/Users/laban/projects/tictac-react/hello-world/node_modules/react-scripts/node_modules/jest/build/jest.js",
+		"/Users/laban/projects/tictac-react/hello-world/src/App.test.js",
+		"/Users/laban/projects/tictac-react/hello-world/src/Components/App.test.js",
+		"/Users/laban/projects/tictac-react/hello-world/src/containers/AppContainer.js",
+		"/Users/laban/projects/tictac-react/hello-world/src/actions/index.js",
+		"/Users/laban/projects/tictac-react/hello-world/src/Components/App.js",
+		"/Users/laban/projects/tictac-react/hello-world/src/index.js",
+		"/Users/laban/projects/tictac-react/hello-world/src/Reducers/index.js",
+		"/Users/laban/projects/tictac-react/hello-world/src/App.js",
+		"/Users/laban/projects/tictac-react/hello-world/src/tictactoe.js",
+		"/Users/laban/projects/tictac-react/hello-world/src/App.css",
+		"/Users/laban/projects/jenkins/run-gitlab.sh",
+		"/Users/laban/projects/jenkins/run-jenkins.sh",
+		"/Users/laban/projects/jenkins/Dockerfile",
+		"/Users/laban/projects/jenkins/dockerfile",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/packages.config",
+		"/Users/laban/Library/Application Support/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
+		"/Users/laban/Library/Application Support/Sublime Text 3/Packages/User/C#.sublime-settings",
+		"/Library/WebServer/Documents/aspnet-vnext-samples/samples/HelloMvc/project.json",
+		"/Library/WebServer/Documents/aspnet-vnext-samples/samples/HelloMvc/Views/Shared/_Layout.cshtml",
+		"/Library/WebServer/Documents/aspnet-vnext-samples/samples/HelloMvc/Models/User.cs",
+		"/Library/WebServer/Documents/aspnet-vnext-samples/samples/HelloMvc/HelloMvc.sublime-project",
+		"/Library/WebServer/Documents/aspnet-vnext-samples/samples/HelloMvc/Startup.cs",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww.Tests/packages.config",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww.Tests/StaticWww.Tests.csproj",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/StaticWww.csproj",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticServer.sln",
+		"/Library/WebServer/Documents/aspnet/StaticServer/packages/repositories.config",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Global.asax",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Global.asax.cs",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Controllers/HomeController.cs",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Controllers/ImageController.cs",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Helpers/ConvertExtensions.cs",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Helpers/ImageWriterResult.cs",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Helpers/NameValueCollectionExtensions.cs",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Models/ImageRenderer.cs",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Models/ResponsiveImageModel.cs",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Models/ResponsiveImageModelBinder.cs",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWwwOld/bin/StaticWww2.dll.mdb",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWwwOld/obj/Debug/StaticWww2.dll.mdb",
+		"/private/etc/apache2/mod_mono.conf",
+		"/Library/Frameworks/Mono.framework/Versions/3.12.0/etc/mono/4.5/machine.config",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Web.Release.config",
+		"/Library/WebServer/Documents/aspnet/StaticServer/StaticWww/Web.Debug.config",
+		"/Library/WebServer/Documents/aspnet/StaticServer/packages/Microsoft.AspNet.Mvc.5.2.2/lib/net45/System.Web.Mvc.xml",
+		"/Library/WebServer/Documents/aspnet/MvcSample/MvcSample.sln",
+		"/Library/WebServer/Documents/aspnet/MvcSample/www/www.csproj",
+		"/Library/WebServer/Documents/aspnet/MvcSample/www/Controllers/HomeController.cs",
+		"/Library/WebServer/Documents/aspnet/MvcSample/www/Global.asax",
+		"/Library/WebServer/Documents/aspnet/MvcSample/www/Global.asax.cs",
+		"/Library/WebServer/Documents/aspnet/MvcSample/www/packages.config",
+		"/Library/WebServer/Documents/aspnet/MvcSample/www/Web.config",
+		"/Library/WebServer/Documents/aspnet/MvcSample/.gitignore",
+		"/Library/WebServer/Documents/aspnet/MvcSample/packages/repositories.config",
+		"/Users/laban/Dropbox/mono_install/install.txt",
+		"/Library/WebServer/Documents/aspnet1/aspnetmvc1/aspnetmvc1/Web.config",
+		"/private/etc/apache2/conf/mod_mono.conf",
+		"/private/var/log/apache2/error_log",
+		"/Users/laban/Dropbox/mono_install/mono-build-env.sh",
+		"/Users/laban/Dropbox/build-sys-install/install.bat",
+		"/private/etc/apache2/httpd.conf",
+		"/Library/WebServer/Documents/aspnet1/default.aspx"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"unixifyPath",
+			"continueOnPluginError",
+			"ignore-plugin-errors",
+			"passthrough",
+			"target",
+			"hashCode",
+			"getHashPattern",
+			"hashpattern",
+			"assertEquals",
+			"getWinner",
+			"valueRuns",
+			"enumerateValues",
+			"var",
+			"};\n",
+			"col",
+			"row",
+			"table",
+			"j",
+			"var",
+			"));",
+			"j",
+			"i",
+			"var",
+			"values.push(",
+			"var maxY",
+			"var maxX",
+			"var j",
+			"var valueRun",
+			"React",
+			"colIndex",
+			"this",
+			"makeColumn",
+			"id",
+			"Board",
+			"state",
+			"playerMove",
+			"playermove",
+			"colIndex",
+			"\tif (!state.table[action.rowIndex][colIndex]) {\n",
+			"colIndex",
+			"rowIndex",
+			"appState",
+			"$col",
+			"sudo",
+			"Economy",
+			"AutoFac",
+			"StaticWww2",
+			"system.web",
+			"deployment",
+			"StaticWww",
+			"isPng",
+			"System.Web.Mvc",
+			"System.Web.M",
+			"www",
+			"MvcSample",
+			"path-to-web-app-directory",
+			"MyApplicationName",
+			"d4faf9a1-5019-4a2c-b276-2ced6e9e20d9",
+			"aspnetmvc2",
+			"LabanTest",
+			"aspnet1",
+			"aspnetmvc1",
+			"aspnetmvc",
+			"aspnetmvc2",
+			"aspnetmvc1",
+			"LabanTest",
+			"# ",
+			"LabanTest"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"StaticWww"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "tictac-redux.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"usage",
+				"lib/usage.txt"
+			],
+			[
+				"readm",
+				"README.md"
+			],
+			[
+				"hashly.js",
+				"lib/hashly.js"
+			],
+			[
+				"packa",
+				"hello-world/package.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 295.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
